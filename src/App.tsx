@@ -19,6 +19,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Everything is awesome</h1>
+      <button className="ui button">Button</button>
       <h2>Start editing to see some magic happen!</h2>
     </div>
   );
