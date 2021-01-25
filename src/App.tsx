@@ -1,6 +1,8 @@
 import "./styles.css";
 import React, { useEffect } from "react";
 
+import { Button } from "semantic-ui-react";
+
 import axios from "axios";
 
 interface User {
@@ -19,7 +21,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Everything is awesome</h1>
-      <button className="ui button">Button</button>
+      <Button>Click Here</Button>
       <h2>Start editing to see some magic happen!</h2>
     </div>
   );
